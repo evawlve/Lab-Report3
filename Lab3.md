@@ -47,7 +47,14 @@ The `-c`command line option counts the number of times a pattern is present in a
 
 ![Image](grep-c.png)
 
+This command will search for the pattern "government" recursively in the subdirectories of the technical directory, count the number of matches in each of the files, and output the first 5 files with matches. 
 
+We can also find files that do not contain a pattern using the `-v` command, we can specify a pattern and search for files that do not contain said pattern. We can also use the `head` command similarly to limit the number of output files to 10.
 
+![Image](grep-v.png)
+
+## Citations
+
+All of the information about the different command line options were found using the manual and ChatGPT from OpenAI. 
 
 
