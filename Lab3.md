@@ -7,11 +7,11 @@ Lab Report 3
 
 The grep command can look through directories recursively using the `-r` command option after grep! An sample use of the command is as follows:
 
-![Image](grep1.png)
+![Image](grep'-r'.png)
 
 In this example, the current working directory is /technical, in which there are 4 subdirectories and one of them containing further subdirectories. The `r` here is being used to search for the word "chapter" recursively through the subdirectories; however, you can also specify another word to include an extension like in this next example!
 
-![Image](grep2.png)
+![Image](grep'-r'include.png)
 
 Using `--include=` allows us to enter the file extension we are looking for, in this case being ".txt" files. 
 
@@ -45,7 +45,7 @@ The `-l` command line option can be useful for finding files that have the speci
 
 The `-c`command line option counts the number of times a pattern is present in a file, we can limit this to look in the first five files:    
 
-![Image](grep-c.png)
+![Image](grep-c1.png)
 
 This command will search for the pattern "government" recursively in the subdirectories of the technical directory, count the number of matches in each of the files, and output the first 5 files with matches. 
 
