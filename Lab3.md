@@ -21,7 +21,7 @@ Using `--include=` allows us to enter the file extension we are looking for, in 
 
 The grep command line option `-e` can be used to specify patterns to search for within files and multiple patterns may also be specified! An example of using the `-e` command line option and specifying two patterns "government" and "chapter" is as follows:
 
-![Image](grep-e1.png)
+![Image](grep-e1.PNG)
 
 The patterns "government and "chapter" are being looked for in the chapter-1.txt file and the lines that contain such pattern is then printed. You can also use `-e` to search for files in a directory that contain a pattern by using it in conjuction with the `-r` command line option. 
 
