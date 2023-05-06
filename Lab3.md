@@ -41,7 +41,13 @@ The `-l` command line option can be useful for finding files that have the speci
 
 `-l` can be quite useful when trying to find the files with the specified patterns. We can redirect the output of the `-l` command to a new text file that we can use to modify or delete files with a specified pattern!
 
-### 
+### Limiting Output/Pattern Matching Inverse
+
+The `-c`command line option counts the number of times a pattern is present in a file, we can limit this to look in the first five files:    
+
+![Image](grep-c.png)
+
+
 
 
 
