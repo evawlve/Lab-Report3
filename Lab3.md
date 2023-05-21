@@ -51,7 +51,7 @@ This command will search for the pattern "government" recursively in the subdire
 
 Similarly, we can use the `-c` command line option with grep to find patterns within the text files themselves, redirect the output to `wc` and display it. Here's an example of doing such while looking for the pattern "Session" within the technical/ directory.
 
-![Image](-c grep.png)
+![Image](-cgrep.png)
 
 The `wc -l` command is used to count the number of lines in the output of grep.
 
@@ -60,7 +60,7 @@ The `wc -l` command is used to count the number of lines in the output of grep.
 All of the information about the different command line options were found using the manual and ChatGPT from OpenAI. 
 
 Input and Output from ChatGPT:
-![Image](Chatgpt prompt1.png)
-![Image](Chatgpt prompt2.png)
-![Image](Chatgpt prompt3.png)
-![Image](Chatgpt prompt4.png)
+![Image](Chatgptprompt1.png)
+![Image](Chatgptprompt2.png)
+![Image](Chatgptprompt3.png)
+![Image](Chatgptprompt4.png)
