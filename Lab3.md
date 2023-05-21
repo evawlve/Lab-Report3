@@ -49,12 +49,18 @@ The `-c`command line option counts the number of times a pattern is present in a
 
 This command will search for the pattern "government" recursively in the subdirectories of the technical directory, count the number of matches in each of the files, and output the first 5 files with matches. 
 
-We can also find files that do not contain a pattern using the `-v` command, we can specify a pattern and search for files that do not contain said pattern. We can also use the `head` command similarly to limit the number of output files to 10.
+Similarly, we can use the `-c` command line option with grep to find patterns within the text files themselves, redirect the output to `wc` and display it. Here's an example of doing such while looking for the pattern "Session" within the technical/ directory.
 
-![Image](grep-v.png)
+![Image](-c grep.png)
+
+The `wc -l` command is used to count the number of lines in the output of grep.
 
 ## Citations
 
 All of the information about the different command line options were found using the manual and ChatGPT from OpenAI. 
 
-
+Input and Output from ChatGPT:
+![Image](Chatgpt prompt1.png)
+![Image](Chatgpt prompt2.png)
+![Image](Chatgpt prompt3.png)
+![Image](Chatgpt prompt4.png)
