@@ -58,8 +58,8 @@ The `wc -l` command is used to count the number of lines in the output of grep.
 ## Citations
 
 All of the information about the different command line options were found using the manual and ChatGPT from OpenAI. 
-
 Input and Output from ChatGPT:
+
 ![Image](Chatgptprompt1.PNG)
 ![Image](Chatgptprompt2.PNG)
 ![Image](Chatgptprompt3.PNG)
