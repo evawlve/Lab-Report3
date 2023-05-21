@@ -51,7 +51,7 @@ This command will search for the pattern "government" recursively in the subdire
 
 Similarly, we can use the `-c` command line option with grep to find patterns within the text files themselves, redirect the output to `wc` and display it. Here's an example of doing such while looking for the pattern "Session" within the technical/ directory.
 
-![Image](-c grep.PNG)
+![Image](-cgrep.PNG)
 
 The `wc -l` command is used to count the number of lines in the output of grep.
 
